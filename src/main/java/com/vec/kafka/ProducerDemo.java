@@ -20,7 +20,7 @@ public class ProducerDemo {
 
         // create a producer record
         ProducerRecord<String, String> producerRecord =
-                new ProducerRecord<>(AppConfigs.topicName, "hello  fff world message from java client");
+                new ProducerRecord<>(AppConfigs.topicName, "hello world message from java client-12-09-2024");
 
         // send data - asynchronous
         producer.send(producerRecord);
